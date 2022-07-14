@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Josefin Sans', sans-serif;
+   background-image: url(../images/bg-pattern-desktop.svg);
+   width: 100%;
+   height: 90vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+section {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container {
+   width: 900px;
+   padding: 50px;
+}
